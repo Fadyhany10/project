@@ -33,7 +33,7 @@ jobs:
             echo "NPM --version" 
             echo $(npm --version)
             npm run api:install
-           echo "TODO: Install dependencies in the the backend API  "
+         # echo "TODO: Install dependencies in the the backend API  "
       # TODO: Lint the frontend
       - run:
           name: Front-End Lint
@@ -43,7 +43,7 @@ jobs:
             echo "NPM --version" 
             echo $(npm --version)
             npm run frontend:lint
-            echo "TODO: Lint the frontend"
+          #  echo "TODO: Lint the frontend"
       # TODO: Build the frontend app
       - run:
           name: Front-End Build
