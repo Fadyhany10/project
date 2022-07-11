@@ -95,5 +95,5 @@ workflows:
           requires:
             - build
       - deploy:
-          requires:
+          requires: 
             - hold
