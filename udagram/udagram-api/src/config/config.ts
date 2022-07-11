@@ -10,6 +10,7 @@ export const config = {
   username: `${process.env.POSTGRES_USERNAME}`,
   password: process.env.POSTGRES_PASSWORD,
   database: process.env.POSTGRES_DB,
+  db_port:Number(process.env.POSTGRES_DB_PORT),
   port: Number(process.env.PORT),
   host: process.env.POSTGRES_HOST,
   aws_access_key:process.env.AWS_ACCESS_KEY_ID,
