@@ -80,8 +80,6 @@ jobs:
           # TODO: Install, build, deploy in both apps
           command: |
             echo "# TODO: Install, build, deploy in both apps"
-            npm run api:install 
-            npm run frontend:install
             npm run deploy
             
 workflows:
@@ -99,3 +97,4 @@ workflows:
       - deploy:
           requires: 
             - hold
+           
