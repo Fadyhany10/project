@@ -75,12 +75,6 @@ jobs:
       - eb/setup
       - aws-cli/setup
       - checkout
-     - run:
-          name: eb set up
-          # TODO: Install, build, deploy in both apps
-          command: |
-            echo "# TODO: Install, build, deploy in both apps"
-            eb init --tags region=1,application=1 
       - run:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
