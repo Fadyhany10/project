@@ -86,9 +86,6 @@ jobs:
           # TODO: Install, build, deploy in both apps
           command: |
             echo "# TODO: Install, build, deploy in both apps"
-            eb list
-            eb use Udagram-env
-            eb status
             npm run api:deploy
       - run:
           name: Deploy frontend
