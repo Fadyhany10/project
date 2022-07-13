@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "14.15.0"
+  },
     "scripts": {
         "frontend:install": "cd udagram/udagram-frontend && npm install -f",
         "frontend:start": "cd udagram/udagram-frontend && npm run start",
