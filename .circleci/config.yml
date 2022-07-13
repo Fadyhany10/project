@@ -80,14 +80,14 @@ jobs:
           # TODO: Install, build, deploy in both apps
           command: |
             echo "# TODO: Install, build, deploy in both apps"
-            eb init udagram-api --region us-east-1 --platform node.js
+            eb init udagram --region us-east-1 --platform node.js
       - run:
           name: Deploy api
           # TODO: Install, build, deploy in both apps
           command: |
             echo "# TODO: Install, build, deploy in both apps"
             eb list
-            eb use udagram-api
+            eb use Udagram-env
             eb status
             npm run api:deploy
       - run:
