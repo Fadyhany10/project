@@ -75,13 +75,19 @@ jobs:
       - eb/setup
       - aws-cli/setup
       - checkout
+       - run:
+          name:eb set up
+          # TODO: Install, build, deploy in both apps
+          command: |
+            echo "# TODO: Install, build, deploy in both apps"
+            eb init udagram-api --region us-east-1 --platform node.js
       - run:
           name: Deploy api
           # TODO: Install, build, deploy in both apps
           command: |
             echo "# TODO: Install, build, deploy in both apps"
             eb list
-            eb use Udagram-env
+            eb use udagram-api
             eb status
             npm run api:deploy
       - run:
