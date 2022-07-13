@@ -14,6 +14,7 @@
         "api:build": "cd udagram/udagram-api && npm run build",
         "api:start": "cd udagram/udagram-api && npm run dev",
         "api:deploy": "cd udagram/udagram-api && npm run deploy",
-        "deploy": "npm run api:deploy && npm run frontend:deploy"
+        "deploy": "npm run api:deploy && npm run frontend:deploy",
+        "eb:api":"cd udagram/udagram-api && eb init udagram --region us-east-1 --platform node.js"
     }
 }
