@@ -76,12 +76,6 @@ jobs:
       - aws-cli/setup
       - checkout
       - run:
-          name: eb set up
-          # TODO: Install, build, deploy in both apps
-          command: |
-            echo "# TODO: Install, build, deploy in both apps"
-            npm run eb:api
-      - run:
           name: Deploy api
           # TODO: Install, build, deploy in both apps
           command: |
