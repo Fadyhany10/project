@@ -102,7 +102,7 @@ workflows:
           filters:
             branches:
               only:
-                - MyMain
+                - myMain
           type: approval
           requires:
             - build
