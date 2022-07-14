@@ -1,6 +1,6 @@
 ## Udagram Pipeline
 
-![Pipeline](pipline digram(2).png)
+![Pipeline](pipline digram (2).png)
 
 ### Continuous Integration
 #### GitHub
